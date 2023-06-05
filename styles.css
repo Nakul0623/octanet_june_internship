@@ -1,0 +1,95 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply transitions to elements */
+  .transition {
+    transition: all 0.3s ease;
+  }
+  
+  /* Set background and styles for the landing page container */
+  .landing-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for the header */
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  /* Style for the heading */
+  h1 {
+    font-size: 48px;
+    color: #333;
+  }
+  
+  /* Style for the content section */
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  /* Style for the image containers */
+  .img-container {
+    margin: 10px;
+  }
+  
+  /* Style for the images */
+  .img-container img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  /* Style for the footer */
+  .footer {
+    text-align: center;
+  }
+  
+  /* Style for the paragraph */
+  p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  /* Style for the button */
+  .btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Hover effect for the button */
+  .btn:hover {
+    background-color: #000;
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    text-decoration-color: #ffffff;
+    font-style: italic;
+    padding: 10px;
+}
+header {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    font-style: italic;
+    padding: 20px;
+}
